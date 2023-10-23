@@ -1,0 +1,141 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\saura\AppData\Local\Temp\idea4.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\saura\AppData\Local\Temp\idea4.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Eclipse Adoptium Java 11.0.20.1)
+[debug]       Load.loadUnit: plugins took 124.6033ms
+[debug]       Load.loadUnit: defsScala took 0.5148ms
+[debug] [Loading] Scanning directory C:\Users\saura\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\saura\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.205 ms
+[debug]           Load.resolveProject(global-plugins) took 77.9048ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\saura\.sbt\1.0\plugins, plugins: List(<none>))) took 146.0458ms
+[debug] [Loading] Done in C:\Users\saura\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 193.6712ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2286ms
+[debug]     Load.loadUnit(file:/C:/Users/saura/.sbt/1.0/plugins/, ...) took 333.4432ms
+[debug]   Load.apply: load took 605.5093ms
+[debug]   Load.apply: resolveProjects took 8.5579ms
+[debug]   Load.apply: finalTransforms took 111.4653ms
+[debug]   Load.apply: config.delegates took 15.7641ms
+[debug]   Load.apply: Def.make(settings)... took 680.1962ms
+[debug]   Load.apply: structureIndex took 150.3863ms
+[debug]   Load.apply: mkStreams took 2.7456ms
+[info] loading global plugins from C:\Users\saura\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3685.6232ms
+[debug]           Load.loadUnit: plugins took 32.1945ms
+[debug]           Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\saura\IdeaProjects\shoppingbasket\project
+[debug]             Load.loadUnit: mkEval took 8.7676ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\saura\IdeaProjects\shoppingbasket\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4508 ms
+[info] loading settings for project shoppingbasket-build from idea4.sbt ...
+[debug]               Load.resolveProject(shoppingbasket-build) took 6.5676ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id shoppingbasket-build, base: C:\Users\saura\IdeaProjects\shoppingbasket\project, plugins: List(<none>))) took 9.7361ms
+[debug] [Loading] Done in C:\Users\saura\IdeaProjects\shoppingbasket\project, returning: (shoppingbasket-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 196.0029ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.0999ms
+[debug]         Load.loadUnit(file:/C:/Users/saura/IdeaProjects/shoppingbasket/project/, ...) took 237.6195ms
+[debug]       Load.apply: load took 239.7667ms
+[debug]       Load.apply: resolveProjects took 0.1317ms
+[debug]       Load.apply: finalTransforms took 10.8945ms
+[debug]       Load.apply: config.delegates took 0.3704ms
+[debug]       Load.apply: Def.make(settings)... took 82.8646ms
+[debug]       Load.apply: structureIndex took 28.133ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from C:\Users\saura\IdeaProjects\shoppingbasket\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 640.714ms
+[debug]     Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory C:\Users\saura\IdeaProjects\shoppingbasket
+[debug]       Load.loadUnit: mkEval took 0.442ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.2341 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 42.6938ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\saura\IdeaProjects\shoppingbasket, plugins: List(<none>))) took 47.0998ms
+[debug] [Loading] Done in C:\Users\saura\IdeaProjects\shoppingbasket, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 133.362ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.1376ms
+[debug]   Load.loadUnit(file:/C:/Users/saura/IdeaProjects/shoppingbasket/, ...) took 779.9491ms
+[debug] Load.apply: load took 783.181ms
+[debug] Load.apply: resolveProjects took 0.2558ms
+[debug] Load.apply: finalTransforms took 32.409ms
+[debug] Load.apply: config.delegates took 0.3525ms
+[debug] Load.apply: Def.make(settings)... took 82.7283ms
+[debug] Load.apply: structureIndex took 28.4862ms
+[debug] Load.apply: mkStreams took 0.0054ms
+[info] set current project to shoppingbasket (in build file:/C:/Users/saura/IdeaProjects/shoppingbasket/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51080 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51080, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to shoppingbasket (in build file:/C:/Users/saura/IdeaProjects/shoppingbasket/)
+[debug] > Exec(idea-shell, None, None)

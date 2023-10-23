@@ -1,0 +1,11 @@
+[debug] > Exec(run Apples Apples Soup Soup Bread Milk Soup, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\saura\IdeaProjects\shoppingbasket\target\scala-2.13\classes ...
+[warn] C:\Users\saura\IdeaProjects\shoppingbasket\src\main\scala\shoppingbasket.scala:24:5: multiline expressions might require enclosing parentheses; a value can be silently discarded when Unit is expected
+[warn]     basket
+[warn]     ^
+[warn] one warning found
+[info] done compiling
+[success] Total time: 1 s, completed 23 Oct 2023, 04:24:44
+[debug] > Exec(idea-shell, None, None)

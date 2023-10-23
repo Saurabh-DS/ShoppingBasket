@@ -1,0 +1,8 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\saura\IdeaProjects\shoppingbasket\target\scala-2.13\test-classes.bak
+[debug] About to delete class files:
+[debug] 	ShoppingBasketTest.class
+[debug] We backup class files:
+[debug] 	ShoppingBasketTest.class
+[debug] Registering generated classes:
+[debug] 	ShoppingBasketTest.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\saura\IdeaProjects\shoppingbasket\target\scala-2.13\test-classes.bak
